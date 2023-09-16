@@ -3,6 +3,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+h1, h2 {
+    color: white;
+}
+
 .title{
     display: flex;
     justify-content: center;
@@ -40,3 +44,47 @@ body{
 
     }
   }
+
+
+  /* counter wrapper styling*/
+
+  .counters{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+  }
+
+  .deposit-wrapper, .winnings-wrapper{
+    width: 294px;
+    height: 141px;
+    border-radius: 24px;
+    background: #2A9D8F;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+    /* counter  styling*/
+
+.deposit-wrapper, .winnings-wrapper{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+.deposit-counter, .winnings-counter{
+        position: absolute;
+        bottom: 20%;
+        width: 254px;
+        height: 37px;
+        border-radius: 24px;
+        background: #264653;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+        
+      }
+
+ /* counter header styling*/
+
+ .deposit-header, .winnings-header{
+        position: relative;
+        bottom: 75px;
+ }
